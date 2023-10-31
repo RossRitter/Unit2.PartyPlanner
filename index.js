@@ -1,4 +1,4 @@
-const API_URL =https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/events
+const API_URL = 'https://fsa-crud-2aa9294fe819.herokuapp.com/api/2109-CPU-RM-WEB-PT/events'
 const state = {
   events: []
 }
@@ -22,4 +22,7 @@ async function getEvents() {
   } catch (error) {
       console.log(error);
   }
+}
+function renderEventsDOM() {
+  
 }
